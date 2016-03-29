@@ -1,0 +1,12 @@
+@import "variables";
+
+header {
+  .mdl-button--icon {
+    min-width: 48px;
+    width: auto;
+    max-width: 200px;
+    min-height: 48px;
+    height: auto;
+    border-radius: 0;
+  }
+}

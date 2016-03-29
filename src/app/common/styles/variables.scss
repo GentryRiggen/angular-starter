@@ -1,0 +1,11 @@
+$baseColor: #2196F3;
+$baseColorForeground: #FFF;
+
+$accentColor: #FFEB3B;
+$accentColorForeground: #424242;
+
+@mixin textOverflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

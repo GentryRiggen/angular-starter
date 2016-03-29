@@ -3,13 +3,33 @@
 // bower:scss
 // endbower
 
+@import "common/styles/variables";
+@import "common/styles/header";
+
 body {
   margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
   text-decoration: none;
 }
+
+.flex-container {
+  display: flex;
+  &.layout-row {
+    flex-direction: row;
+  }
+  &.layout-column {
+    flex-direction: column;
+  }
+}
+
+.flex-item {
+  flex-grow: 1;
+}
+
 
 /* Do not remove the comments below. It's the markers used by gulp-inject to inject
    all your sass files automatically */
